@@ -1,1 +1,1 @@
-# A browser using pqt5
+# A browser using pyqt5
