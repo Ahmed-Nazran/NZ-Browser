@@ -9,7 +9,7 @@ class Main(QMainWindow):
     def __init__(self):
         super(Main, self).__init__()
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('https://images7.alphacoders.com/502/thumb-350-502378.jpg'))
+        self.browser.setUrl(QUrl('https://www.google.com'))
         self.setCentralWidget(self.browser)
         self.showMaximized()
         #self.setWindowIcon(QtGui.QIcon('NZ.png'))
